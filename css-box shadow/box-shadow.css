@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/*Profile card*/
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 50px;
+  font-family: cursive;
+}
+
+.profile-card:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: rotate(5deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.user-profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+.username {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.bio {
+  font-size: 22px;
+  color: #666;
+}
+
+/*Button container*/
+
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 2px rgb(7, 7, 7), 0 0 1em rgb(36, 178, 67),
+    0 0 0.2em blue;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+.btn:hover {
+  background-color: #36b300;
+}
