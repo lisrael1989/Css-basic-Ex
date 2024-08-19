@@ -5,6 +5,23 @@
   background-color: rgb(82, 82, 83);
 }
 
+header {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 100px;
+}
+
+.back {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: cursive;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  color: white;
+}
+
 h1 {
   color: white;
 }
