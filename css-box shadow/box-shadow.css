@@ -12,7 +12,6 @@ body {
 header {
   display: flex;
   justify-content: start;
-  margin-bottom: 200px;
 }
 
 .back {
