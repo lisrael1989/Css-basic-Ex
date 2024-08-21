@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 0;
+
+  height: calc(100vh - 60px);
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+
+.box1 {
+  background-color: green;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: red;
+}
