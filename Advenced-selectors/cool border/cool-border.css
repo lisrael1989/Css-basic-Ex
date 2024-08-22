@@ -23,7 +23,7 @@ body {
 
 .cool-border::after {
   content: ' cool border';
-  position: absolute;
+  /* position: absolute; */
 }
 
 .cool-border span::after {
