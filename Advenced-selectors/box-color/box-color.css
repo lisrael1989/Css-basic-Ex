@@ -4,17 +4,22 @@ body {
   margin: 150px auto;
 }
 
-.red-box {
+.box {
   width: 500px;
   height: 500px;
-  background-color: red;
+  background-color: purple;
   position: relative;
 }
 
-.red-box::after {
+.box:hover {
+  background-color: rgb(246, 227, 24);
+}
+
+.box::before {
   content: '';
   position: absolute;
   width: 50%;
   height: 100%;
-  background-color: purple;
+  left: 50%;
+  background-color: red;
 }
