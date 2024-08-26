@@ -1,0 +1,41 @@
+html {
+  font-size: 16px;
+}
+
+/* Container with px unit */
+.container-px {
+  width: 300px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+/* Paragraph with em unit */
+.container-px p {
+  font-size: 1.5em;
+}
+
+/* Container with rem unit */
+.container-rem {
+  width: 300px;
+  padding: 10px;
+  background-color: #d0d0d0;
+  margin-bottom: 20px;
+}
+
+/* Paragraph with rem unit */
+.container-rem p {
+  font-size: 1.5rem;
+}
+
+/* Container with vw unit */
+.container-vw {
+  width: 100%;
+  padding: 10px;
+  background-color: #b0b0b0;
+}
+
+/* Header with vw unit */
+.container-vw h1 {
+  font-size: 5vw;
+}
