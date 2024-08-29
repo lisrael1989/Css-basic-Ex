@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.gallery-container {
+  display: grid;
+  grid-auto-flow: dense;
+  margin: 10px;
+  gap: 10px;
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: scale 0.2s ease-in-out;
+}
+
+img:hover {
+  scale: 1.01;
+  cursor: pointer;
+  filter: brightness(90%);
+}
+
+img:nth-child(4n) {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+img:nth-child(6n) {
+  grid-row: span 3;
+  grid-column: span 3;
+}
+
+@media (max-width: 800px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
